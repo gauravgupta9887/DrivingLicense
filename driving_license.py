@@ -40,7 +40,7 @@ for i in range (m[0],m[1],1):
     y=y+z[i]
 m=[]
 for i in range (len(z)):
-    if 'License No' in z[i]:
+    if 'Licence No' in z[i]:
         m.append(z[i])
     elif 'Name' in z[i]:
         m.append(z[i])
